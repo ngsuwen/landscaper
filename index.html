@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landscaper</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- put script here is your script is fine to load before the dom ready -->
+  </head>
+  <body>
+    <div id='wrap'>
+      <p>
+        <b id='heading'> LANDSCAPER </b>
+        <span id='high_score'>
+         High Score: Be the first one to be on the high score!
+        </span>
+      </p>
+      <div id='left'>
+        <h2 class='shop'>Shop:</h2>
+          <div class='inventory'>
+            <img src="https://www.pngitem.com/pimgs/m/44-441486_scissors-clipart-hd-png-download.png"><br>
+            <b> Scissors </b><br>
+            <button id="buy_scissors">Buy: $5</button>
+          </div><div class='inventory'>
+            <img src="https://www.kindpng.com/picc/m/542-5424357_lawn-mower-clipart-png-download-lawn-mower-clipart.png"><br>
+            <b> Old Lawn Mower </b><br>
+            <button id="buy_lawnmower1">Buy: $25</button>
+          </div><div class='inventory'>
+            <img src="https://www.clipartkey.com/mpngs/m/30-307881_mowing-clipart-ride-on-clip-art-riding-mower.png"><br>
+            <b> Battery-powered Lawn Mower </b><br>
+            <button id="buy_lawnmower2">Buy: $250</button>
+          </div><div class='inventory'>
+            <img src="https://www.pngkey.com/png/full/204-2049010_gardeners-royalty-free-vector-clip-art-illustration-horticulture.png"><br>
+            <b> A Team of Gardeners </b><br>
+            <button id="buy_team">Buy: $500</button>
+          </div>
+      </div>
+      <div id='right'>
+        <b>Inventory: </b>
+        <p id="inventory">Hands</p>
+        <b>Wallet: </b>
+        <p id="wallet">$0</p>
+        <b>Day: </b>
+        <p id="day_count">0</p>
+        <h2> Choose your action:</h2>
+        <div id='bottom'>
+          <div class='inventory'>
+            <img src="https://www.pngitem.com/pimgs/m/37-374141_praying-hands-clip-art-hands-clipart-hd-png.png"><br>
+            <b> Hands </b><br>
+            <button id="lawn_teeth">Lawn: $1</button>
+          </div><div class='inventory'>
+            <img src="https://www.pngitem.com/pimgs/m/44-441486_scissors-clipart-hd-png-download.png"><br>
+            <b> Scissors </b><br>
+            <button id="lawn_scissors">Lawn: $5</button>
+          </div><div class='inventory'>
+            <img src="https://www.kindpng.com/picc/m/542-5424357_lawn-mower-clipart-png-download-lawn-mower-clipart.png"><br>
+            <b> Old Lawn Mower </b><br>
+            <button id="lawn_lawnmower1">Lawn: $50</button>
+            </div><div class='inventory'>
+            <img src="https://www.clipartkey.com/mpngs/m/30-307881_mowing-clipart-ride-on-clip-art-riding-mower.png"><br>
+            <b> Battery-powered Lawn Mower </b><br>
+            <button id="lawn_lawnmower2">Lawn: $100</button>
+            </div><div class='inventory'>
+            <img src="https://www.pngkey.com/png/full/204-2049010_gardeners-royalty-free-vector-clip-art-illustration-horticulture.png"><br>
+            <b> A Team of Gardeners </b><br>
+            <button id="lawn_team">Lawn: $250</button>
+          </div><div class='inventory'>
+            <img src="https://www.nicepng.com/png/full/57-573401_clipart-sword-original-clip-art-sword.png"><br>
+          <b> Test your luck </b><br>
+          <button id="raid">Raid</button>
+          </div><div class='inventory'>
+            <img src="https://www.freeiconspng.com/uploads/black-panel-restart-system-icon--6.png"><br>
+          <b>New Game</b><br>
+          <button id="new_game">New Game</button><br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- put script here is your script only good to load after the dom ready -->
+    <script src="app.js"></script>
+  </body>
+</html>
